@@ -10,7 +10,7 @@ exports.up = function (knex) {
         tbl.string('model', 124).notNullable();
         tbl.string('mileage', 64).notNullable();
         tbl.boolean('manual_transmission');
-        tbl.timestamps();
+        tbl.timestamp('created_at').defaultTo(knex.fn.now());
     })
 };
 
