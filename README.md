@@ -10,7 +10,7 @@ Follow these steps for starting your project.
 - [x] Add your _Team Lead_ as collaborator on your repository.
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [x] Push commits: git push origin `<firstName-lastName>`.
+- [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
