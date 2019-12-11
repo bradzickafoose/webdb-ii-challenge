@@ -10,5 +10,7 @@ server.use(express.json());
 
 server.use('/api/cars', carsRouter);
 
+server.get('/', (req, res) => res.json({ message: 'API is online' }));
+
 module.exports = server;
 
