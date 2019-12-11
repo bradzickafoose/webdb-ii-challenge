@@ -10,12 +10,12 @@ Follow these steps for starting your project.
 - [x] Add your _Team Lead_ as collaborator on your repository.
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your _Team Lead_ as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your _Team Lead_ as a reviewer on the pull-request
 - [ ] Your _Team Lead_ will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
