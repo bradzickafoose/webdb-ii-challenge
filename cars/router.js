@@ -10,8 +10,7 @@ router.post("/", async (req, res) => {
     .insert(car)
     .into("cars")
     .then(() => res.status(200).json({
-      message: `${car.make} ${car.model} added successfully.`,
-      car
+      message: `${car.make} ${car.model} added successfully.`, car
     }))
     .catch(error => res.status(400).json({
       message: "Error adding car to the car database.",
@@ -32,6 +31,22 @@ router.get("/", async (req, res) => {
 });
 
 // UPDATE Car
+router.put("/:id", async (req, res) => {
+  const id = req.params.id;
+  const car = req.body;
+
+  await knex
+    .select({ id })
+    .from("cars")
+    .update(car)
+    .then(() => res.status(200).json({
+      message: `The ${car.make} ${car.model} has been updated.`, id, car
+    }))
+    .catch(error => res.status(500).json({
+      message: "Error updating car.",
+      reason: error.message
+    }));
+});
 
 // DELETE Car
 
