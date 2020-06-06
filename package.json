@@ -12,9 +12,11 @@
     "nodemon": "^1.19.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "knex": "^0.20.4",
+    "morgan": "^1.10.0",
     "sqlite3": "^4.1.1"
   }
 }
